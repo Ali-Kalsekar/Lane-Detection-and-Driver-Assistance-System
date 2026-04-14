@@ -1,4 +1,5 @@
 # Lane Detection and Driver Assistance System
+> Last automated login update: 2026-04-14 12:41:38
 
 A complete, production-ready lane detection and driver assistance system built with Python and OpenCV. This system detects road lanes, estimates lane curvature, determines vehicle position relative to the lane center, and provides real-time visual warnings for lane departure.
 
@@ -26,30 +27,30 @@ A complete, production-ready lane detection and driver assistance system built w
 
 ```
 lane_detection_system/
-├── main.py                          # Main entry point
-├── config/
-│   └── config.yaml                  # Configuration file
-├── video_loader/
-│   └── video_reader.py              # Video I/O handling
-├── preprocessing/
-│   └── image_preprocessor.py        # Image preprocessing
-├── lane_detection/
-│   └── lane_detector.py             # Hough Transform-based detection
-├── curvature_estimation/
-│   └── curvature_calculator.py      # Polynomial fitting & curvature
-├── vehicle_position/
-│   └── position_estimator.py        # Vehicle position calculation
-├── warning_system/
-│   └── lane_warning.py              # Departure warnings
-├── utils/
-│   ├── fps.py                       # FPS counter
-│   ├── draw.py                      # Drawing utilities
-│   └── logger.py                    # Logging system
-├── input/
-│   └── road_video.mp4               # Sample video (add your video here)
-└── output/
-    ├── processed_video.mp4          # Processed output video
-    └── lane_detection.log           # System logs
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ main.py                          # Main entry point
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ config/
+Ã¢â€â€š   Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬ config.yaml                  # Configuration file
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ video_loader/
+Ã¢â€â€š   Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬ video_reader.py              # Video I/O handling
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ preprocessing/
+Ã¢â€â€š   Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬ image_preprocessor.py        # Image preprocessing
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ lane_detection/
+Ã¢â€â€š   Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬ lane_detector.py             # Hough Transform-based detection
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ curvature_estimation/
+Ã¢â€â€š   Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬ curvature_calculator.py      # Polynomial fitting & curvature
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ vehicle_position/
+Ã¢â€â€š   Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬ position_estimator.py        # Vehicle position calculation
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ warning_system/
+Ã¢â€â€š   Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬ lane_warning.py              # Departure warnings
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ utils/
+Ã¢â€â€š   Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ fps.py                       # FPS counter
+Ã¢â€â€š   Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ draw.py                      # Drawing utilities
+Ã¢â€â€š   Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬ logger.py                    # Logging system
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ input/
+Ã¢â€â€š   Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬ road_video.mp4               # Sample video (add your video here)
+Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬ output/
+    Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ processed_video.mp4          # Processed output video
+    Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬ lane_detection.log           # System logs
 ```
 
 ## Installation
