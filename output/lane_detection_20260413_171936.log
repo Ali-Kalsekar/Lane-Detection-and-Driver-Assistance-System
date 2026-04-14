@@ -1,6 +1,0 @@
-2026-04-13 17:19:37 - LaneDetectionSystem - INFO - Configuration loaded: c:\Ali\projects\CV\project 8\lane_detection_system\config/config.yaml
-2026-04-13 17:19:37 - LaneDetectionSystem - INFO - ======================================================================
-2026-04-13 17:19:37 - LaneDetectionSystem - INFO - Lane Detection and Driver Assistance System Initialized
-2026-04-13 17:19:37 - LaneDetectionSystem - INFO - ======================================================================
-2026-04-13 17:19:37 - LaneDetectionSystem - ERROR - Video file not found: c:\Ali\projects\CV\project 8\lane_detection_system\input/road_video.mp4
-2026-04-13 17:19:37 - LaneDetectionSystem - ERROR - Fatal error: 'NoneType' object has no attribute 'isOpened'
