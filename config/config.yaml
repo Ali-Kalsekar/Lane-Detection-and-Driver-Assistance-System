@@ -1,0 +1,65 @@
+# Lane Detection and Driver Assistance System Configuration
+
+# Video settings
+video_source: input/road_video.mp4
+output_video: output/processed_video.mp4
+fps_target: 30
+
+# Image preprocessing
+canny_low_threshold: 50
+canny_high_threshold: 150
+gaussian_blur_kernel: [5, 5]
+
+# Hough Transform parameters
+hough_rho: 2
+hough_theta: 1  # in degrees
+hough_threshold: 30
+hough_min_line_length: 50
+hough_max_line_gap: 20
+
+# Lane detection
+lane_line_thickness: 3
+lane_color: [0, 255, 0]  # BGR
+history_buffer_size: 5
+
+# Curvature estimation
+poly_degree: 2
+curvature_threshold: 1000  # pixels
+curve_color: [255, 0, 0]  # BGR
+
+# Vehicle position
+vehicle_offset_threshold: 0.5  # meters (normalized)
+center_line_color: [255, 255, 0]  # BGR
+
+# Lane departure warning
+departure_threshold: 0.3  # normalized value (0-1)
+warning_color: [0, 0, 255]  # BGR (red in BGR)
+warning_font_scale: 0.8
+
+# Region of Interest
+roi_top_percent: 0.4  # start from top 40%
+roi_bottom_percent: 1.0  # to bottom
+
+# Perspective Transform (bird's eye view)
+use_perspective_transform: true
+perspective_height: 400
+perspective_width: 400
+
+# Adaptive thresholding
+use_adaptive_threshold: false
+adaptive_block_size: 11
+
+# Night mode
+enable_night_mode: false
+night_gamma_correction: 1.5
+
+# Display settings
+display_curvature: true
+display_offset: true
+display_fps: true
+display_warning: true
+display_bird_eye_view: false
+
+# Logging
+log_level: INFO  # DEBUG, INFO, WARNING, ERROR
+log_file: output/lane_detection.log

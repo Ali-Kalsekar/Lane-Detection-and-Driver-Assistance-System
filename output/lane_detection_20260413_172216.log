@@ -1,0 +1,17 @@
+2026-04-13 17:22:17 - LaneDetectionSystem - INFO - Configuration loaded: c:\Ali\projects\CV\project 8\lane_detection_system\config/config.yaml
+2026-04-13 17:22:17 - LaneDetectionSystem - INFO - ======================================================================
+2026-04-13 17:22:17 - LaneDetectionSystem - INFO - Lane Detection and Driver Assistance System Initialized
+2026-04-13 17:22:17 - LaneDetectionSystem - INFO - ======================================================================
+2026-04-13 17:22:17 - LaneDetectionSystem - WARNING - Configured video not found: c:\Ali\projects\CV\project 8\lane_detection_system\input/road_video.mp4. Falling back to webcam index 0.
+2026-04-13 17:22:18 - LaneDetectionSystem - INFO - Camera initialized (index: 0)
+2026-04-13 17:22:18 - LaneDetectionSystem - INFO - Video properties: 640x480 @ 30.0 FPS
+2026-04-13 17:22:18 - LaneDetectionSystem - INFO - Video writer initialized: c:\Ali\projects\CV\project 8\lane_detection_system\output/processed_video.mp4
+2026-04-13 17:22:18 - LaneDetectionSystem - INFO - All components initialized successfully
+2026-04-13 17:22:18 - LaneDetectionSystem - INFO - Starting video processing...
+2026-04-13 17:22:19 - LaneDetectionSystem - ERROR - Fatal error: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'GaussianBlur'
+> Overload resolution failed:
+>  - Can't parse 'ksize'. Expected sequence length 2, got 6
+>  - Can't parse 'ksize'. Expected sequence length 2, got 6
+
+2026-04-13 17:22:19 - LaneDetectionSystem - INFO - Video reader released
+2026-04-13 17:22:19 - LaneDetectionSystem - INFO - Video saved: c:\Ali\projects\CV\project 8\lane_detection_system\output/processed_video.mp4

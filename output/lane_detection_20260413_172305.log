@@ -1,0 +1,25 @@
+2026-04-13 17:23:05 - LaneDetectionSystem - INFO - Configuration loaded: c:\Ali\projects\CV\project 8\lane_detection_system\config/config.yaml
+2026-04-13 17:23:05 - LaneDetectionSystem - INFO - ======================================================================
+2026-04-13 17:23:05 - LaneDetectionSystem - INFO - Lane Detection and Driver Assistance System Initialized
+2026-04-13 17:23:05 - LaneDetectionSystem - INFO - ======================================================================
+2026-04-13 17:23:05 - LaneDetectionSystem - WARNING - Configured video not found: c:\Ali\projects\CV\project 8\lane_detection_system\input/road_video.mp4. Falling back to webcam index 0.
+2026-04-13 17:23:07 - LaneDetectionSystem - INFO - Camera initialized (index: 0)
+2026-04-13 17:23:07 - LaneDetectionSystem - INFO - Video properties: 640x480 @ 30.0 FPS
+2026-04-13 17:23:07 - LaneDetectionSystem - INFO - Video writer initialized: c:\Ali\projects\CV\project 8\lane_detection_system\output/processed_video.mp4
+2026-04-13 17:23:07 - LaneDetectionSystem - INFO - All components initialized successfully
+2026-04-13 17:23:07 - LaneDetectionSystem - INFO - Starting video processing...
+2026-04-13 17:23:19 - LaneDetectionSystem - INFO - User quit requested
+2026-04-13 17:23:19 - LaneDetectionSystem - INFO - Cleaning up resources...
+2026-04-13 17:23:20 - LaneDetectionSystem - INFO - Video reader released
+2026-04-13 17:23:20 - LaneDetectionSystem - INFO - Video saved: c:\Ali\projects\CV\project 8\lane_detection_system\output/processed_video.mp4
+2026-04-13 17:23:20 - LaneDetectionSystem - INFO - ======================================================================
+2026-04-13 17:23:20 - LaneDetectionSystem - INFO - SYSTEM STATISTICS
+2026-04-13 17:23:20 - LaneDetectionSystem - INFO - ======================================================================
+2026-04-13 17:23:20 - LaneDetectionSystem - INFO - Total frames processed: 357
+2026-04-13 17:23:20 - LaneDetectionSystem - INFO - Average FPS: 0.00
+2026-04-13 17:23:20 - LaneDetectionSystem - INFO - Total elapsed time: 14.54s
+2026-04-13 17:23:20 - LaneDetectionSystem - INFO - Lane detector stats: {'frames_processed': 357, 'history_buffer_size': 5, 'left_lane_available': True, 'right_lane_available': True}
+2026-04-13 17:23:20 - LaneDetectionSystem - INFO - Warning system stats: {'total_frames_processed': 357, 'warning_active': False, 'frames_since_last_warning': 21}
+2026-04-13 17:23:20 - LaneDetectionSystem - INFO - ======================================================================
+2026-04-13 17:23:20 - LaneDetectionSystem - INFO - Video reader released
+2026-04-13 17:23:20 - LaneDetectionSystem - INFO - Video saved: c:\Ali\projects\CV\project 8\lane_detection_system\output/processed_video.mp4
